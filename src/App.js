@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.scss";
+import NavBar from "./components/Navbar/NavBar";
 
 class App extends Component {
   render() {
-    return <h1>siemka</h1>;
+    return (
+      <React.Fragment>
+        <NavBar />
+      </React.Fragment>
+    );
   }
 }
 
